@@ -93,7 +93,7 @@ class TestApi(unittest.TestCase):
             expected = {"message": "The provided shortcode is invalid"}
             # send data as POST form to endpoint
             sent = json.dumps({'url': 'https://www.hotel.it', 'shortcode': 'jukolaaaa'})
-            result = client.post(  # IL RISULTATO
+            result = client.post(  
                 '/shorten',
                 data=sent
             )
@@ -109,7 +109,7 @@ class TestApi(unittest.TestCase):
             expected = {"shortcode": "jukola"}
             # send data as POST form to endpoint
             sent = json.dumps({'url': 'https://www.hotel.it', 'shortcode': 'jukola'})
-            result = client.post(  # IL RISULTATO
+            result = client.post(  
                 '/shorten',
                 data=sent
             )
