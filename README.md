@@ -2,7 +2,7 @@
 
 *You can install the requirements using the command:*
 
-```pip install-r requirements.txt``` 
+```pip install -r requirements.txt``` 
 
 *this will install the following needed packages :*
 
