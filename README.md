@@ -26,7 +26,7 @@
 ```curl localhost:5000/shorten -d "{\"url\": \"https;//www.energyworx.com\",\"shortcode\": \"en0001 \" }" -H 'Content-Type: application/json'```
 
 
-*where https;//www.energyworx.com is the url, and en0001 is the shortcode. It will return the shortcode value if valid.*
+*where https://www.energyworx.com is the url, and en0001 is the shortcode. It will return the shortcode value if valid.*
 
 **Get Request**
 
